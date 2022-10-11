@@ -14,13 +14,11 @@ sumToN(-8)  // returns null
 
 function sumToN(n) {
   // Your code here
-  if (n < 0 ) {
+  // if starts at or gets to 0, null + 1 = 1
+  if (n <= 0 ) {
     return null;
   }
-  // once n hits zero, return n for recursive step
-  if (n === 0) {
-    return n;
-  }
+
   // sets result to n + n-1,
   let result = sumToN(n - 1) + n;
   // after every num added return result
