@@ -18,6 +18,10 @@ range(7, 6); // []
 
 function range(start, end) {
   // Your code here
+  if (start >= end) {
+    return [];
+  }
+  return [start].concat(range(start + 1, end));
 }
 
 
