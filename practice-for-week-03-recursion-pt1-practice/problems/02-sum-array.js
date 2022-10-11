@@ -24,7 +24,7 @@ sumArray([1, 2, 3, 4, 5]); // 15
 function sumArray(arr) {
   // Your code here
   let newArr = arr;
-  if (arr.length === 1) {
+  if (newArr.length === 1) {
     return arr[0];
   }
   let firstNum = newArr.shift();
