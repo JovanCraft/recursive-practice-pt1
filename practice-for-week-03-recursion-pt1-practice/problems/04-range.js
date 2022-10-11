@@ -8,6 +8,11 @@ Examples:
 range(1, 5); // [1, 2, 3, 4]
 range(3, 4); // [3]
 range(7, 6); // []
+
+1. take in smaller num, larger num
+2.
+3. if num is greater than second return
+
 ***********************************************************************/
 
 

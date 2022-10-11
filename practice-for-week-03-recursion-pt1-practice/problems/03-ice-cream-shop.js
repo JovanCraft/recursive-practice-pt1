@@ -32,7 +32,7 @@ function iceCreamShop(flavors, favorite) {
   if (flavors.length === 0){
     return false
   }
-  
+
   flavors.shift()
   return iceCreamShop(flavors, favorite)
 }
