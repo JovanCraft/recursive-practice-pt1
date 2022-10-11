@@ -18,9 +18,14 @@ range(7, 6); // []
 
 function range(start, end) {
   // Your code here
+  // if start with num bigger than end return empty arr
+  // if the numbers are the same return empty arr
   if (start >= end) {
     return [];
   }
+  // returns an arr
+  // array starts with arr
+  // adds range(start + 1, end) to array, calls itself and keeps adding
   return [start].concat(range(start + 1, end));
 }
 
